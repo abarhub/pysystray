@@ -5,8 +5,8 @@ commandes:
       execution: dir
   - commande2:
       description: bbbb
-      execution: cmd /C run.bat
+      execution: cmd /C test\run.bat
   - commande3:
       description: ccc
-      execution: start run.bat
+      execution: start test\run.bat
 

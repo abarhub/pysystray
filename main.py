@@ -10,8 +10,8 @@ def run_commande(cmd):
 
 def demarrage_systray():
     icon=''
-    hover_text = "SysTrayIcon Demo"
-    config = yaml.safe_load(open("exemple1.yml"))
+    hover_text = "PySystray"
+    config = yaml.safe_load(open("config.yml"))
     print("config", config)
 
     menu_options=[]
