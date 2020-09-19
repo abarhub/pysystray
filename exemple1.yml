@@ -1,0 +1,12 @@
+
+commandes:
+  - commande1:
+      description: aaa
+      execution: dir
+  - commande2:
+      description: bbbb
+      execution: cmd /C run.bat
+  - commande3:
+      description: ccc
+      execution: start run.bat
+
