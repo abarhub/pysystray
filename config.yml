@@ -1,12 +1,12 @@
 
 commandes:
   - commande1:
-      description: aaa
+      description: Commande 1
       execution: dir
   - commande2:
-      description: bbbb
+      description: Commande 2
       execution: cmd /C test\run.bat
   - commande3:
-      description: ccc
+      description: Commande 3
       execution: start test\run.bat
 
