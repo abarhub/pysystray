@@ -1,0 +1,12 @@
+
+commandes:
+  - commande1:
+      description: Commande 1
+      execution: dir
+  - commande2:
+      description: Commande 2
+      execution: cmd /C test\run.bat
+  - commande3:
+      description: Commande 3
+      execution: start test\run.bat
+
