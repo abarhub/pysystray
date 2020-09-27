@@ -11,7 +11,7 @@ Pour installer le script, il faut executer les commandes suivantes :
 cd c:\repertoire\installation
 git clone https://github.com/abarhub/pysystray.git
 cd pysystray
-pip install -r requirements.txt
+pip install -r requirements.txt  (ou install.bat)
 run.bat
 ```
 
@@ -22,6 +22,11 @@ run.bat
 ou
 ```bat
 python main.py
+```
+
+Pour que le script se lance au démarrage, il faut créer un racourci dans le répertoire :
+```bat
+%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup
 ```
 
 # Configuration
